@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CoinCombination.Models;
+using System;
 
 namespace CoinCombination.Tests
 {
@@ -34,6 +35,7 @@ namespace CoinCombination.Tests
         public void CoinSlide_GetNumberOfCoins_1Quarter2Dimes2Pennies()
         {
             CoinSlide.GetCoins(47);
+
             Assert.AreEqual(1, CoinSlide.numQuarters);
             Assert.AreEqual(2, CoinSlide.numDimes);
             Assert.AreEqual(2, CoinSlide.numPennies);
