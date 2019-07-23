@@ -11,7 +11,12 @@ DETAILED DESCRIPTION
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **BEHAVIOR** | INPUT | OUTPUT |
+| **Program welcomes the user** | User starts program | Please enter the number in cents:  |
+| **Program can convert multiples of 25 cents into number of quarters.** | .75 | 3 quarters |
+| **Program can convert multiples of 10 cents into number of dimes.** | 20 | 2 dimes |
+| **Program can convert multiples of 5 cents into number of nickels.** | 5 | 1 nickels |
+| **Program can convert multiples of 1 cents into number of pennies.** | 3 | 3 pennies |
+| **Program can convert any number between 1 and 99 into a combination of coins.** | 47 | 1 quarter + 2 dime + 2 pennies |
 
 ## Setup/Installation Requirements
 

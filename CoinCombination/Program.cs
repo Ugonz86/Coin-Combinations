@@ -1,5 +1,5 @@
 using System;
-using NAMESPACE;
+using CoinCombination.Models;
 
 class Program
 {
